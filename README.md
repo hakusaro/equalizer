@@ -6,6 +6,7 @@ To run:
 1. Install Ruby 2.3.0p0.
 2. ```gem install bundler```
 3. ```bundle```
+3. ```gem install rerun```
 4. ```rerun ruby app.rb```
 
 You'll see something like this:
