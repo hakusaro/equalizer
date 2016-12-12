@@ -91,16 +91,8 @@ p {
   background: linear-gradient(180deg, rgba(242,80,199,0.3) 0%, rgba(22,149,163,0.3) 100%);
 }
 
-.moriah {
-  top: 4050px;
-  height: 1000px;
-  position: absolute;
-  width: 100%;
-  background: linear-gradient(180deg, rgba(22,149,163,0.3) 0%, rgba(235,127,0,0.6) 100%);
-}
-
 .talitha {
-  top: 5050px;
+  top: 4050px;
   height: 1000px;
   position: absolute;
   width: 100%;
