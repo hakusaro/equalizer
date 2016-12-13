@@ -14,7 +14,7 @@ html
       $(document).ready(function() {
           $('#fullpage').fullpage({
             navigation: false,
-            anchors: ['mission-video', 'history-marker', 'katrina-story', 'lois-story', 'ray-story', 'talitha-story', 'getinto'],
+            anchors: ['mission-video', 'history-marker', 'katrina-story', 'lois-story', 'ray-story', 'talitha-story', 'getintocs'],
             autoScrolling: true,
             scrollBar: true,
             scrollingSpeed: 700,
@@ -38,7 +38,7 @@ html
         li
           a href="#talitha-story" Talitha
         li
-          a href="#getinto" style="font-weight: bold" Declare CS!
+          a href="#getintocs" style="font-weight: bold" Declare CS!
 
     #fullpage
       .section id="video"
@@ -56,16 +56,18 @@ html
         .slide class="history_slide2"
           h1
             | But it wasn't always this way!
-        .slide
+        .slide class="lovelace"
           .story_header
             h1
               | Ada Lovelace
           .story_body
-            img src="/img/mhamilton.gif" style="float: right; width: 50%; padding-right: 20px"
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
+            img src="/img/alovelace.jpg" style="float: right; width: 50%; padding-left: 20px"
+            p style="text-align: left;"
+              | Born in the early 1800s, Augusta Ada King-Noel, Countess of Lovelace, is universally regarded as one of, if not the first Computer Scientist and Programmer. Her work took place on Charles Babbage's Analytical Engine, an early mechanical computer. Her mother, Anne Isabella Milbanke attempted to developer her interest in logic and math in an effort to distance her from her father, George Gordon Byron. Her mother's efforts to get Ada interested in logic and mathematics worked. Ada, however, still maintained a strong connection to her father until her death.
+            p style="text-align: left;"
+              | Ada annotated an article by Luigi Menabrea. Luigi's article, translated from Italian, was written on mechanical engines. In her <span style="font-style: italic;">Notes</span>, Ada wrote out what historians consider to be the first computer algorithm.
 
-        .slide
+        .slide class="hamilton"
           .story_header
             h1
               | Margaret Hamilton
@@ -98,7 +100,7 @@ html
           h1
             | Katrina's Story
           h3
-            | here is a subheader
+            | 28, Junior @ University of Wyoming
         iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
         .story_body
           p
@@ -109,7 +111,7 @@ html
           h1
             | Lois's Story
           h3
-            | here is a subheader
+            | 20, Junior @ University of Wyoming
         iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
         .story_body
           p
@@ -133,7 +135,7 @@ html
           h1
             | Talitha's Story
           h3
-            | here is a subheader
+            | Designer & Developer
         iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
         .story_body
           p

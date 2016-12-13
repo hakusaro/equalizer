@@ -87,8 +87,6 @@ iframe {
   height: 500px;
 }
 
-
-
 .story_header h1 {
   margin-top: -100px;
   text-align: center;
@@ -138,6 +136,10 @@ iframe {
 
 .history_stat {
   background: linear-gradient(180deg, rgba(255, 97, 56, 0.8) 0%, rgba(255, 97, 56, 0.5) 50%, rgba(255, 59, 119, 0.8) 100%);
+}
+
+.lovelace {
+  background: rgba(33, 133, 197, 0.5);
 }
 
 .history_stat h1 {
