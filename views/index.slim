@@ -4,80 +4,86 @@ html
     title Equalizer: Creating equality in Computer Science
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     meta name="description" content="The Equalizer project highlights stories from real women in Computer Science."
-    link rel="stylesheet" href="/vendor/hack.css"
+    / link rel="stylesheet" href="/vendor/hack.css"
     link rel="stylesheet" href="/equalizer.css"
+    link rel="stylesheet" type="text/css" href="/vendor/jquery.fullPage.css"
+    script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"
+    script type="text/javascript" src="/vendor/jquery.fullPage.js"
+
+    javascript:
+      $(document).ready(function() {
+          $('#fullpage').fullpage({
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Main Video', 'secondSlide'],
+            autoScrolling: true,
+            scrollBar: true
+          });
+      });
 
   body
-    .bigblack
-      img src="/img/logo_white.png"
-      .videoWrapper
+    .topnav
+      ul
+        li
+          a href="#" History
+        li
+          a href="#" Katrina's Story
+        li
+          a href="#" Lois's Story
+        li
+          a href="#" Raylyn's Story
+        li
+          a href="#" Talitha's Story
+
+    #fullpage
+      .section id="video"
+        img class="logo" src="/img/logo_black.png"
         iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+        h1
+          | Let's level the playing field.
 
-    / .transition_block
+      .section id="history"
+        .story_header
+          h1
+            | History
+        .story_body
+          img src="/img/mhamilton.gif" style="float: right; width: 50%; padding-right: 20px"
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
+            
 
-    .reallybig
-      h1 Meet The Engineers
+      .section id="katrina"
+        .story_header
+          h1
+            | Katrina's Story
+        iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+        .story_body
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
 
-    .raylyn
-      .container
-        h1 Raylyn, 20, Junior
-        .grid
-          .cell.-12of12
-            iframe width="100%" height="600px" src="https://player.vimeo.com/video/121834095?loop=1&color=ff9933&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
-        .grid
-          .cell.-12of12
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .section id="lois"
+        .story_header
+          h1
+            | Lois's Story
+        iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+        .story_body
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
 
-    .lois
-      .container
-        h1 Lois, 20, Senior
-        .grid
-          .cell.-12of12
-            iframe width="100%" height="600px" src="https://player.vimeo.com/video/121834095?loop=1&color=ff9933&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
-        .grid
-          .cell.-12of12
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .section id="raylyn"
+        .story_header
+          h1
+            | Raylyn's Story
+        iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+        .story_body
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
 
-    .katrina
-      .container
-        h1 Katrina, 28, Junior
-        .grid
-          .cell.-12of12
-            iframe width="100%" height="600px" src="https://player.vimeo.com/video/121834095?loop=1&color=ff9933&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
-        .grid
-          .cell.-12of12
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-    .talitha
-      .container
-        h1 Talitha, Designer & Developer
-        .grid
-          .cell.-12of12
-            iframe width="100%" height="600px" src="https://player.vimeo.com/video/121834095?loop=1&color=ff9933&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
-        .grid
-          .cell.-12of12
-            p
-              | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      .section id="talitha"
+        .story_header
+          h1
+            | Talitha's Story
+        iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+        .story_body
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
