@@ -16,13 +16,16 @@ html
             navigation: false,
             autoScrolling: true,
             scrollBar: true,
-            scrollingSpeed: 1200
+            scrollingSpeed: 1200,
+            loopHorizontal: false
           });
       });
 
   body
     .topnav
       ul
+        li
+          a href="#" Mission
         li
           a href="#" History
         li
@@ -46,8 +49,8 @@ html
           h1
             | 20%
           h5
-            | Number of women in CS
-        .slide
+            | Number of women in Computer Science, from the <a href="http://www.bls.gov/cps/cpsaat11.htm">US Bureau of Labor Statistics</a>.
+        .slide class="history_slide2"
           h1
             | But it wasn't always this way!
         .slide

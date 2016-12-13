@@ -71,6 +71,7 @@ body {
   height: 120px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   display: block;
 }
 
@@ -124,7 +125,7 @@ iframe {
 }
 
 .history_stat {
-  background: rgba(210, 0, 0, 1);
+  background: rgba(255, 97, 56, 0.6);
   /*background: linear-gradient(90deg, rgba(255, 0, 0, 0.9) 0%, rgba(160, 0, 0, 0.1) 90%, rgba(255, 255, 255, 0.3) 100%);*/
 }
 
@@ -135,5 +136,14 @@ iframe {
 
 .history_stat h5 {
   font-size: 20px;
+  text-align: center;
+}
+
+.history_slide2 {
+  background: rgba(0, 163, 136, 0.6);
+}
+
+.history_slide2 h1 {
+  font-size: 72px;
   text-align: center;
 }
