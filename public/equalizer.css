@@ -55,7 +55,7 @@ body {
 }
 
 #video {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255, 97, 56, 0.6) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 80%, rgba(255, 97, 56, 0.8) 100%);
 }
 
 #video h1 {
@@ -137,8 +137,7 @@ iframe {
 }
 
 .history_stat {
-  background: rgba(255, 97, 56, 0.6);
-  /*background: linear-gradient(90deg, rgba(255, 0, 0, 0.9) 0%, rgba(160, 0, 0, 0.1) 90%, rgba(255, 255, 255, 0.3) 100%);*/
+  background: linear-gradient(180deg, rgba(255, 97, 56, 0.8) 0%, rgba(255, 97, 56, 0.5) 50%, rgba(255, 59, 119, 0.8) 100%);
 }
 
 .history_stat h1 {
