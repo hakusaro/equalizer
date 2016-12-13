@@ -121,11 +121,11 @@ iframe {
 }
 
 #katrina {
-  background: linear-gradient(180deg, rgba(255, 59, 119, 0.8) 0%, rgba(255, 59, 119, 0.5) 65%, rgba(89, 0, 179, 0.5) 100%);
+  background: linear-gradient(180deg, rgba(255, 59, 119, 0.8) 0%, rgba(255, 59, 119, 0.5) 80%, rgba(89, 0, 179, 0.7) 100%);
 }
 
 #lois {
-  background: linear-gradient(180deg, rgba(89, 0, 179, 0.5) 0%, rgba(89, 0, 179, 0.7) 90%, rgba(52, 152, 219, 0.7) 100%);
+  background: linear-gradient(180deg, rgba(89, 0, 179, 0.7) 0%, rgba(89, 0, 179, 0.5) 90%, rgba(52, 152, 219, 0.7) 100%);
 }
 
 #raylyn {
