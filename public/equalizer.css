@@ -87,9 +87,7 @@ iframe {
   height: 500px;
 }
 
-#raylyn {
-  background: linear-gradient(180deg, rgba(52, 152, 219, 0.7) 0%, rgba(22,149,163,0.3) 90%, rgba(72, 0, 255, 0.3) 100%);
-}
+
 
 .story_header h1 {
   margin-top: -100px;
@@ -114,6 +112,7 @@ iframe {
 .story_quote {
   font-style: italic;
   text-align: center;
+  font-size: 20px !important;
 }
 
 .story_body p {
@@ -121,16 +120,16 @@ iframe {
   text-align: center;
 }
 
-#lois {
-  background: linear-gradient(180deg, rgba(89, 0, 179, 0.3) 90%, rgba(89, 0, 179, 0.3) 90%, rgba(52, 152, 219, 0.7) 100%);
+#katrina {
+  background: linear-gradient(180deg, rgba(255, 59, 119, 0.8) 0%, rgba(255, 59, 119, 0.5) 65%, rgba(89, 0, 179, 0.5) 100%);
 }
 
-.katrina {
-  top: 3050px;
-  height: 1000px;
-  position: absolute;
-  width: 100%;
-  background: linear-gradient(180deg, rgba(242,80,199,0.3) 0%, rgba(22,149,163,0.3) 100%);
+#lois {
+  background: linear-gradient(180deg, rgba(89, 0, 179, 0.5) 0%, rgba(89, 0, 179, 0.7) 90%, rgba(52, 152, 219, 0.7) 100%);
+}
+
+#raylyn {
+  background: linear-gradient(180deg, rgba(52, 152, 219, 0.7) 0%, rgba(22,149,163,0.3) 90%, rgba(72, 0, 255, 0.3) 100%);
 }
 
 #talitha {
