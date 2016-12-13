@@ -32,6 +32,7 @@ The Equalizer Project.
   fullPage.js
   Thin
   Hover
+  GitHub
 
   Lovingly hosted on Heroku and CloudFlare.
 
