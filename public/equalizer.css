@@ -139,7 +139,11 @@ iframe {
 }
 
 .lovelace {
-  background: rgba(33, 133, 197, 0.5);
+  background: rgba(54, 177, 191, 0.7);
+}
+
+.hamilton {
+  background: rgba(245, 165, 3, 0.5);
 }
 
 .history_stat h1 {
