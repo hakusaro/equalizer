@@ -1,15 +1,19 @@
-The Equalizer Project was created by these amazing humans:
+The Equalizer Project.
 
 /* TEAM */
   
   Talitha T.
+  Lead interviewer, video editor extraordinaire
 
   Lucas Nicodemus
+  Web designer, project lead
   twitter.com/@nicatronTg
 
   Rich A.
+  Interviewer
 
   Ross P.
+  Interviewer, video editor
 
 /* INTERVIEWEES */
 
@@ -27,6 +31,9 @@ The Equalizer Project was created by these amazing humans:
   Slim
   fullPage.js
   Thin
+  Hover
+
+  Lovingly hosted on Heroku and CloudFlare.
 
 /* WHY */
 
