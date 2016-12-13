@@ -13,11 +13,10 @@ html
     javascript:
       $(document).ready(function() {
           $('#fullpage').fullpage({
-            navigation: true,
-            navigationPosition: 'right',
-            navigationTooltips: ['Main Video', 'secondSlide'],
+            navigation: false,
             autoScrolling: true,
-            scrollBar: true
+            scrollBar: true,
+            scrollingSpeed: 1200
           });
       });
 
@@ -38,18 +37,27 @@ html
     #fullpage
       .section id="video"
         img class="logo" src="/img/logo_black.png"
-        iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+        iframe src="https://www.youtube.com/embed/xcFxNB3TYcU" width="850px" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
         h1
           | Let's level the playing field.
 
       .section id="history"
-        .story_header
+        .slide class="history_stat"
           h1
-            | History
-        .story_body
-          img src="/img/mhamilton.gif" style="float: right; width: 50%; padding-right: 20px"
-          p
-            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
+            | 20%
+          h5
+            | Number of women in CS
+        .slide
+          h1
+            | But it wasn't always this way!
+        .slide
+          .story_header
+            h1
+              | Margaret Hamilton
+          .story_body
+            img src="/img/mhamilton.gif" style="float: right; width: 50%; padding-right: 20px"
+            p
+              | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget leo ut nulla malesuada ornare vel ac velit. Proin efficitur nisl vel facilisis porta. Maecenas finibus molestie molestie. Vivamus vehicula purus vitae ante gravida, quis finibus turpis blandit. Nulla sed justo dapibus, tristique erat eget, cursus leo. Maecenas nec viverra eros. Integer sit amet erat erat. Phasellus porta hendrerit enim, quis mollis purus lacinia tempor. Praesent suscipit luctus lacus et egestas. Vestibulum pellentesque mi erat, a tempus nunc iaculis gravida. Morbi sagittis turpis et nunc scelerisque sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed imperdiet vehicula eros non malesuada.
             
 
       .section id="katrina"

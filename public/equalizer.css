@@ -68,7 +68,7 @@ body {
 }
 
 #video img {
-  height: 150px;
+  height: 120px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -79,7 +79,7 @@ iframe {
   margin-right: auto;
   display: block;
   width: 850px;
-  height: 640px;
+  height: 500px;
 }
 
 #raylyn {
@@ -87,7 +87,7 @@ iframe {
 }
 
 .story_header h1 {
-  margin-top: -200px;
+  margin-top: -100px;
   text-align: center;
   font-size: 72px;
 }
@@ -121,4 +121,19 @@ iframe {
   position: absolute;
   width: 100%;
   background: linear-gradient(180deg, rgba(235,127,0,0.6) 0%, rgba(223,28,171,0.6) 100%);
+}
+
+.history_stat {
+  background: rgba(210, 0, 0, 1);
+  /*background: linear-gradient(90deg, rgba(255, 0, 0, 0.9) 0%, rgba(160, 0, 0, 0.1) 90%, rgba(255, 255, 255, 0.3) 100%);*/
+}
+
+.history_stat h1 {
+  font-size: 192px;
+  text-align: center;
+}
+
+.history_stat h5 {
+  font-size: 20px;
+  text-align: center;
 }
