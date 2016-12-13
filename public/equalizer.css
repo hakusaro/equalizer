@@ -52,6 +52,15 @@ body {
   color: black;
   font-family: 'Muli', sans-serif;
   text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+.topnav li a:hover {
+  font-size: 24px;
+  color: rgba(49, 53, 61, 1.0);
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  border-bottom: 2px dashed #000;
 }
 
 #video {
