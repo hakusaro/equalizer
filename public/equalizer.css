@@ -146,6 +146,10 @@ iframe {
   background: rgba(245, 165, 3, 0.5);
 }
 
+.hopper {
+  background: rgba(68, 88, 120, 1.0);
+}
+
 .history_stat h1 {
   font-size: 192px;
   text-align: center;
