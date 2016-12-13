@@ -1,0 +1,39 @@
+The Equalizer Project was created by these amazing humans:
+
+/* TEAM */
+  
+  Talitha T.
+
+  Lucas Nicodemus
+  twitter.com/@nicatronTg
+
+  Rich A.
+
+  Ross P.
+
+/* INTERVIEWEES */
+
+  Katrina
+
+  Lois
+
+  Raylyn
+
+  Talitha
+
+/* TECHNOLOGY */
+
+  Sinatra
+  Slim
+  fullPage.js
+  Thin
+
+/* WHY */
+
+The problem is simple: Only 1 in 5 computer programmers are women.
+
+In a world where technology rules our lives, now, more than ever, is the time to equalize the statistics.
+
+From our smartphones to our future self driving cars, leaving such a wide gap isn’t just about fairness in employment.
+
+It’s about diversifying software and hardware, from development to implementation.
