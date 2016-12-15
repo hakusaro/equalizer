@@ -201,3 +201,41 @@ p {
 h1, h2, h3, h4, h5 {
   font-family: 'Lato', sans-serif;
 }
+
+.recruit ul {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+}
+
+.recruit li {
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+.recruit li a {
+  color: black;
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+.recruit li a:hover {
+  color: rgba(49, 53, 61, 1.0);
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  border-bottom: 2px dashed #000;
+}
+
+a:hover {
+  color: rgba(49, 53, 61, 1.0);
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  border-bottom: 2px dashed #000;
+}
+
+a {
+  color: black;
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
