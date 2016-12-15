@@ -14,7 +14,7 @@ html
       $(document).ready(function() {
           $('#fullpage').fullpage({
             navigation: false,
-            anchors: ['mission-video', 'history-marker', 'katrina-story', 'lois-story', 'ray-story', 'talitha-story', 'getintocs', 'footer'],
+            anchors: ['mission-video', 'history-marker', 'katrina-story', 'lois-story', 'ray-story', 'talitha-story', 'getintocs', 'bottomzone'],
             autoScrolling: true,
             scrollBar: true,
             scrollingSpeed: 700,
@@ -23,6 +23,8 @@ html
       });
 
   body
+    .refsnav
+      a href="#bottomzone" References
     .topnav
       ul
         li
@@ -226,3 +228,5 @@ html
           | Biographical and historical information was fact checked with research starting from Wikipedia. All Wikipedia content is licensed under the Creative Commons.
         p
           | Statistics related to involvement of women in STEM are from <a href="http://fortune.com/2016/11/07/robot-roadmap-report-labor-jobs/">Fortune</a>, <a href="http://www.thecrimson.com/article/2016/2/22/computer-science-department-gender-gap/">The Harvard Crimson</a>, and <a href="http://www.bls.gov/cps/cpsaat11.htm">The United States Department of Labor's Bureau of Labor Statistics</a>.
+        p
+          | Proudly: Hosted on Heroku, written in Ruby, and developed on GitHub.
